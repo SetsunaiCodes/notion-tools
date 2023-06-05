@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+}
+.number{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+}
+
+.angabe{
+    font-weight: 400;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 94%;
+    height: 100vh;
+    background-color: #2F3437;
+}
+aside{
+    background-color: #494c4d;
+    width: 6%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 70px;
+    width: 70px;
+    background-color: #5a5d5f;
+}
+
+.iconbox:hover{
+    background-color: #6a6f71;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    border-radius: 8px;
+    height: 180px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    margin: 0 25px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    border-radius: 8px;
+    text-align: center;
+    height: 180px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spiderverse{
+    background-image: url(img/BeyondTheSpiderVerse.jpg);
+}
+.ffxvi{
+    background-image: url(img/FFXVI.jpg);
+}
+.card h1{
+    margin: 10px 0;
+    font-size: 27px;
+}
+.abschnittecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abschnitt{
+    margin: 0 10px;
+}
+
+.addbtnsection{
+    height: 60px;
+    width: 100%;
+    background-color: red;
+}
+
+.dualcardsec{
+    display: flex;
+}
+
+ion-icon{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+section{
+    width: 90%;
+}
+.sechead{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sechead p{
+    margin: 0;
+    font-weight: 600;
+    color: grey;
+    font-size: 25px;
+}
+.divider{
+    height: 2px;
+    background-color: grey;
+    flex: 1;
+    margin: 0 20px;
+}
