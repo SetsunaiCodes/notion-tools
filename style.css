@@ -85,6 +85,11 @@ aside{
 .ffxvi{
     background-image: url(img/FFXVI.jpg);
 }
+
+.spiderman2{
+    background-image: url(img/SpiderMan2.avif);
+}
+
 .card h1{
     margin: 10px 0;
     font-size: 27px;

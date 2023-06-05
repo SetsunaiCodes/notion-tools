@@ -64,3 +64,36 @@
           document.getElementById("end").innerHTML = "TODAY IS THE DAY!!";
       }
       }, 1000);
+
+      //SpiderMan2
+      // The data/time we want to countdown to
+      let countDownDateSpiderMan2 = new Date("Oct 22, 2023 00:00:00").getTime();
+
+      // Run myfunc every second
+      let myfuncSpiderMan2 = setInterval(function() {
+   
+      let now = new Date().getTime();
+      let timeleft = countDownDateSpiderMan2 - now;
+          
+      // Calculating the days, hours, minutes and seconds left
+      let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+          
+      // Result is output to the specific element
+      document.getElementById("daysmarvelsspiderman2").innerHTML = days
+      document.getElementById("hoursmarvelsspiderman2").innerHTML = hours 
+      document.getElementById("minsmarvelsspiderman2").innerHTML = minutes 
+      document.getElementById("secsmarvelsspiderman2").innerHTML = seconds
+          
+      // Display the message when countdown is over
+      if (timeleft < 0) {
+          clearInterval(myfuncFF);
+          document.getElementById("daysmarvelsspiderman2").innerHTML = ""
+          document.getElementById("hoursmarvelsspiderman2").innerHTML = "" 
+          document.getElementById("minsmarvelsspiderman2").innerHTML = ""
+          document.getElementById("secsmarvelsspiderman2").innerHTML = ""
+          document.getElementById("end").innerHTML = "TODAY IS THE DAY!!";
+      }
+      }, 1000);
